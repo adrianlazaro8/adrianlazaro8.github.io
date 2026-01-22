@@ -1,6 +1,6 @@
 baseURL = 'https://adrianlazaro8.github.io/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Adrian Lazaro'
 theme = "LoveIt"
 
 [module]
@@ -27,7 +27,7 @@ theme = "LoveIt"
   title = "Helloooo"
   # website description for RSS, SEO, Open Graph and Twitter Cards
   # 网站描述, 用于 RSS, SEO, Open Graph 和 Twitter Cards
-  description = "This is my cool site"
+  description = "Helloo"
   # website images for Open Graph and Twitter Cards
   # 网站图片, 用于 Open Graph 和 Twitter Cards
   images = []
