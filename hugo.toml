@@ -10,7 +10,7 @@ theme = "LoveIt"
 [params]
   # site default theme ["auto", "light", "dark"]
   # 网站默认主题 ["auto", "light", "dark"]
-  defaultTheme = "auto"
+  defaultTheme = "light"
   # public git repo url only then enableGitInfo is true
   # 公共 git 仓库路径，仅在 enableGitInfo 设为 true 时有效
   gitRepo = ""
@@ -588,7 +588,7 @@ theme = "LoveIt"
   [params.analytics]
     # Google Analytics
     [params.analytics.google]
-      id = ""
+      id = "G-XW96EDY2X1"
       # whether to respect the browser’s “do not track” setting
       # 是否遵循浏览器的 “Do Not Track” 设置
       respectDoNotTrack = false
