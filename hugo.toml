@@ -211,8 +211,8 @@ theme = "LoveIt"
   # Social config in home page
   # 主页的社交信息设置
   [params.social]
-    GitHub = "https://github.com/adrianlazaro8"
-    Linkedin = "www.linkedin.com/in/adlagar"
+    GitHub = "adrianlazaro8"
+    Linkedin = "adlagar"
     X = ""
     Instagram = ""
     Facebook = ""
