@@ -507,11 +507,11 @@ theme = "LoveIt"
       [params.page.comment.giscus]
         # You can refer to the official documentation of giscus to use the following configuration.
         # 你可以参考官方文档来使用下列配置
-        enable = false
-        repo = ""
-        repoId = ""
+        enable = true
+        repo = "adrianlazaro8/adrianlazaro8.github.io"
+        repoId = "R_kgDOQ-6L6g"
         category = "Announcements"
-        categoryId = ""
+        categoryId = "DIC_kwDOQ-6L6s4C1afz"
         # automatically adapt the current theme i18n configuration when empty
         # 为空时自动适配当前主题 i18n 配置
         lang = ""
