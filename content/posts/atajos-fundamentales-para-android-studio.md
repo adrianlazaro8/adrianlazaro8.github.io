@@ -2,23 +2,18 @@
 date = '2026-01-10T18:41:00+01:00'
 draft = false
 title = 'Atajos fundamentales para Android Studio'
-description: "Conocer los atajos de teclado que tenemos en Android Studio es fundamental para agilizar nuestro día a día"
+description = "Conocer los atajos de teclado que tenemos en Android Studio es fundamental para agilizar nuestro día a día"
+
+# LoveIt configuration
+featuredImage = "/images/cabecera-escritorio.jpg"
+featuredImagePreview = "/images/not-defined.jpg"
+tags = ["productividad", "Android Studio"]
+
+[lightgallery]
+  enable = true
+[toc]
+  enable = true
 +++
-
-# --- LoveIt config ---
-
-# Imagen que sale GRANDE al entrar en el post
-featuredImage: "/images/not-defined..jpg"
-
-# Imagen pequeña que sale en la lista de artículos (Home)
-featuredImagePreview: "/images/not-defined.jpg"
-
-tags: ["productividad", "Android Studio"]
-
-# Opciones avanzadas del tema (Opcional)
-toc:
-  enable: true  # Muestra la tabla de contenidos a la derecha
----
 
 
 A continuación te dejamos algunos de los **atajos más importantes para Android Studio** que sin duda te van a ayudar a mejorar tu productividad.
