@@ -34,7 +34,7 @@ theme = "LoveIt"
   # Author config
   # 作者配置
   [params.author]
-    name = "xxxx"
+    name = "Adrián Lázaro"
     email = ""
     link = ""
 
