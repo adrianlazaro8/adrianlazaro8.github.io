@@ -1,7 +1,8 @@
 baseURL = 'https://adrianlazaro.dev/'
-languageCode = 'es-es'
 title = 'Adrian Lazaro'
 theme = "LoveIt"
+languageCode = "es"
+defaultContentLanguage = "es"
 
 [module]
   [module.hugoVersion]
