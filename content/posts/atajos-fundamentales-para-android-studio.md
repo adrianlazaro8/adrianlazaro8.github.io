@@ -5,8 +5,8 @@ title = 'Atajos fundamentales para Android Studio'
 description = "Conocer los atajos de teclado que tenemos en Android Studio es fundamental para agilizar nuestro día a día"
 
 # LoveIt configuration
-featuredImage = "/images/cabecera-escritorio.jpg"
-featuredImagePreview = "/images/not-defined.jpg"
+featuredImage = "/images/atajos-fundamentales-android-studio.png"
+featuredImagePreview = "/images/atajos-fundamentales-android-studio.png"
 tags = ["productividad", "Android Studio"]
 
 [lightgallery]
