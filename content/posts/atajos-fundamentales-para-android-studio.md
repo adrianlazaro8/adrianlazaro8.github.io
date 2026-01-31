@@ -10,7 +10,7 @@ featuredImagePreview = "/images/atajos-fundamentales-android-studio-preview.png"
 tags = ["productividad", "Android Studio"]
 
 [lightgallery]
-  enable = false
+  enable = true
 [toc]
   enable = true
 +++
