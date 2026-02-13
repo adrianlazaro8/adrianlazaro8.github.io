@@ -1,6 +1,6 @@
 baseURL = 'https://adrianlazaro.dev/'
 title = 'Adrian Lazaro'
-theme = "LoveIt"
+theme = "FixIt"
 languageCode = "es"
 defaultContentLanguage = "es"
 
