@@ -1,0 +1,6 @@
+/* Desactivar zoom en las imágenes de la portada (Home) */
+.summary .featured-image-preview img:hover,
+.summary .featured-image img:hover {
+    transform: none !important; /* Anula el cambio de tamaño */
+    transition: none !important; /* (Opcional) Quita la suavidad si quedara algo */
+}
