@@ -10,7 +10,7 @@
   <meta itemprop="description" content="Conoce cómo ofuscar el código de tu aplicación Android para que a nadie le sirva hacer ingeniería inversa">
   <meta itemprop="datePublished" content="2021-09-05T18:41:00+01:00">
   <meta itemprop="dateModified" content="2021-09-05T18:41:00+01:00">
-  <meta itemprop="wordCount" content="566">
+  <meta itemprop="wordCount" content="561">
   <meta itemprop="keywords" content="Seguridad"><meta property="og:url" content="http://localhost:1313/posts/ofusca-el-codigo-de-tu-aplicacion/">
   <meta property="og:site_name" content="Adrian Lazaro">
   <meta property="og:title" content="Ofusca El Codigo De Tu Aplicación Android">
@@ -39,7 +39,7 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "http:\/\/localhost:1313\/posts\/ofusca-el-codigo-de-tu-aplicacion\/"
-    },"genre": "posts","keywords": "Seguridad","wordcount":  566 ,
+    },"genre": "posts","keywords": "Seguridad","wordcount":  561 ,
     "url": "http:\/\/localhost:1313\/posts\/ofusca-el-codigo-de-tu-aplicacion\/","datePublished": "2021-09-05T18:41:00+01:00","dateModified": "2021-09-05T18:41:00+01:00","publisher": {
       "@type": "Organization",
       "name": ""},"author": {
@@ -80,7 +80,7 @@
     <div class="header"><h1 class="single-title animate__animated animate__flipInX"><span>Ofusca El Codigo De Tu Aplicación Android</span>
       </h1></div><div class="post-meta">
       <div class="post-meta-line"><span class="post-author"><span class="author"><i class="fa-solid fa-user-circle" aria-hidden="true"></i>
-      Adrián Lázaro</span></span></div><div class="post-meta-line"><span title="publicado el 2021-09-05 18:41:00"><i class="fa-solid fa-calendar-days me-1" aria-hidden="true"></i><time datetime="05-09-2021">05-09-2021</time></span>&nbsp;<span title="566 palabras"><i class="fa-solid fa-pencil-alt me-1" aria-hidden="true"></i>Aproximadamente 600 palabras</span>&nbsp;<span><i class="fa-regular fa-clock me-1" aria-hidden="true"></i>3 minutos</span>&nbsp;</div>
+      Adrián Lázaro</span></span></div><div class="post-meta-line"><span title="publicado el 2021-09-05 18:41:00"><i class="fa-solid fa-calendar-days me-1" aria-hidden="true"></i><time datetime="05-09-2021">05-09-2021</time></span>&nbsp;<span title="561 palabras"><i class="fa-solid fa-pencil-alt me-1" aria-hidden="true"></i>Aproximadamente 600 palabras</span>&nbsp;<span><i class="fa-regular fa-clock me-1" aria-hidden="true"></i>3 minutos</span>&nbsp;</div>
     </div><div class="featured-image"><img loading="eager" src='/images/ofusca_el_codigo_de_tu_aplicacion_android.png' sizes="(max-width: 680px) 100vw, (max-width: 960px) 80vw, (max-width: 1440px) 56vw, 800px" alt="/images/ofusca_el_codigo_de_tu_aplicacion_android.png"></div><div class="details toc" id="toc-static" data-kept="false">
         <div class="details-summary toc-title">
           <span>Contenido</span>
@@ -94,7 +94,11 @@
       </ul>
     </li>
     <li><a href="#técnicas-comunes-de-ofuscación">Técnicas comunes de ofuscación</a></li>
-    <li><a href="#ejemplo-práctico-con-kotlin">Ejemplo práctico con Kotlin</a></li>
+    <li><a href="#ejemplo-práctico-con-kotlin">Ejemplo práctico con Kotlin</a>
+      <ul>
+        <li><a href="#muy-bien-muy-bien-pero-cómo-hago-yo-eso">Muy bien, muy bien… ¿Pero cómo hago yo eso?</a></li>
+      </ul>
+    </li>
   </ul>
 </nav></div>
       </div><div class="content" id="content"><p>Entramos a ver un tema que sobre todo al principio de nuestra vida profesional como desarrolladores Android no cuidamos lo suficiente (principalmente por desconocer la existencia de este tipo de herramientas). <strong>Ofusca el código fuente de tu aplicación</strong> si quieres evitar a toda costa sorpresas desagradables.</p>
@@ -134,25 +138,23 @@
 </span></span><span style="display:flex;"><span>  <span style="color:#75715e">//Show purchase dialog
 </span></span></span><span style="display:flex;"><span>}</span></span></code></pre></div><p>Efectivamente, podrían modificar ese if else para que la aplicación se comporte tal y como ellos esperan, porque todo lo que tú habías implementado lo pueden leer y llegar a entender de forma bastante sencilla.</p>
 <p>Aquí entra en juego la ofuscación. La ofuscación del código fuente es ese proceso que se encarga de modificar el nombre de las clases, de las variables, de las constantes, etc… Con ello, si alguien decompila un APK no podrá llegar a entender qué está haciendo una parte del código. En lugar de el snippet de arriba, podría llegar a encontrar algo como esto:</p>
-<p>``kotlin
-if(user.isSubscribed()){
-//Very cool functionality
-} else {
-//Show purchase dialog
-}</p>
-<pre tabindex="0"><code>
-A la persona que está indagando en cosas que no debería, a priori, no se le va a pasar por la cabeza que modificando ese if else consiga acceso a esa funcionalidad tan chula sin pagar 💪. ¡Le acabamos de poner una barrera muy importante!
-
-### Muy bien, muy bien… ¿Pero cómo hago yo eso?
-
-Existen varias alternativas, pero de las más conocidas son:
-
-- ProGuard: Herramienta de software libre, y que está muy integrada con Android Studio. Más información: https://developer.android.com/studio/build/shrink-code?hl=es
-- DexGuard: Es una herramienta comercial derivada de ProGuard, con más potencia a la hora de ofuscar. Más información: https://www.guardsquare.com/dexguard
-
-En un próximo artículo explicaremos cómo utilizar ProGuard, pero independientemente de la herramienta a utilizar, insisto, debes recordar que es muy importante ofuscar tu código fuente antes de subirlo a la tienda.
-
-¡Nos leemos en próximos artículos! Disfruta de la semana y recuerda que siempre puedes revisar cuando quieras el resto de artículos 🤗</code></pre></div><div class="post-footer" id="post-footer">
+<div class="code-block highlight line-nos-hidden" data-mode="classic" data-copyable="true"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-kotlin" data-lang="kotlin"><span style="display:flex;"><span><span style="color:#66d9ef">if</span>(a.e()){
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">//Very cool functionality
+</span></span></span><span style="display:flex;"><span>} <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">//Show purchase dialog
+</span></span></span><span style="display:flex;"><span>}</span></span></code></pre></div><p>A la persona que está indagando en cosas que no debería, a priori, no se le va a pasar por la cabeza que modificando ese if else consiga acceso a esa funcionalidad tan chula sin pagar 💪. ¡Le acabamos de poner una barrera muy importante!</p>
+<h3 class="heading-element" id="muy-bien-muy-bien-pero-cómo-hago-yo-eso"><span>Muy bien, muy bien… ¿Pero cómo hago yo eso?</span>
+  <a href="#muy-bien-muy-bien-pero-c%c3%b3mo-hago-yo-eso" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><p>Existen varias alternativas, pero de las más conocidas son:</p>
+<ul>
+<li>ProGuard: Herramienta de software libre, y que está muy integrada con Android Studio. Más información: <a href="https://developer.android.com/studio/build/shrink-code?hl=es" target="_blank" rel="external nofollow noopener noreferrer">https://developer.android.com/studio/build/shrink-code?hl=es</a></li>
+<li>DexGuard: Es una herramienta comercial derivada de ProGuard, con más potencia a la hora de ofuscar. Más información: <a href="https://www.guardsquare.com/dexguard" target="_blank" rel="external nofollow noopener noreferrer">https://www.guardsquare.com/dexguard</a></li>
+</ul>
+<p>En un próximo artículo explicaremos cómo utilizar ProGuard, pero independientemente de la herramienta a utilizar, insisto, debes recordar que es muy importante ofuscar tu código fuente antes de subirlo a la tienda.</p>
+<p>¡Nos leemos en próximos artículos! Disfruta de la semana y recuerda que siempre puedes revisar cuando quieras el resto de artículos 🤗</p>
+</div><div class="post-footer" id="post-footer">
   <div class="post-info">
     <div class="post-info-line">
       <div class="post-info-mod"><span title="Actualizado el 2021-09-05 18:41:00">Actualizado el 05-09-2021&nbsp;</span>
@@ -190,7 +192,11 @@ En un próximo artículo explicaremos cómo utilizar ProGuard, pero independient
       </ul>
     </li>
     <li><a href="#técnicas-comunes-de-ofuscación">Técnicas comunes de ofuscación</a></li>
-    <li><a href="#ejemplo-práctico-con-kotlin">Ejemplo práctico con Kotlin</a></li>
+    <li><a href="#ejemplo-práctico-con-kotlin">Ejemplo práctico con Kotlin</a>
+      <ul>
+        <li><a href="#muy-bien-muy-bien-pero-cómo-hago-yo-eso">Muy bien, muy bien… ¿Pero cómo hago yo eso?</a></li>
+      </ul>
+    </li>
   </ul>
 </nav></div>
       </div>
