@@ -22,5 +22,12 @@
       <guid>http://localhost:1313/tags/productividad/</guid>
       <description></description>
     </item>
+    <item>
+      <title>Seguridad</title>
+      <link>http://localhost:1313/tags/seguridad/</link>
+      <pubDate>Sun, 05 Sep 2021 18:41:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/seguridad/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

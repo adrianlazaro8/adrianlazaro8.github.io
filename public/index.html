@@ -72,10 +72,29 @@
       Adrián Lázaro</span></span>&nbsp;<span class="post-publish" title='2026-01-10 18:41:00'>publicado el <time datetime="10-01-2026">10-01-2026</time></span></div><div class="content"><p>A continuación te dejamos algunos de los <strong>atajos más importantes para Android Studio</strong> que sin duda te van a ayudar a mejorar tu productividad.</p>
 <p>Sobre todo al principio de empezar en el mundo del desarrollo, independientemente del IDE que estemos utilizando, por desconocimiento, realizamos todas las acciones a golpe de ratón. Nos movemos hasta llegar a la opción que estamos buscando y entonces, le hacemos click. Esto al cabo de día nos acaba quitando mucho tiempo, y si lo multiplicamos por la cantidad días laborables al finalizar el año, nos dará escalofríos 🥶. Es por ello que os compartimos una lista con los atajos más importantes para Android Studio que sin duda te van a ayudar a minimizar esas «pérdidas de tiempo».</p></div><div class="post-footer">
     <a href="/posts/atajos-fundamentales-para-android-studio/">Leer más</a><div class="post-tags"><i class="fa-solid fa-tags me-1" aria-hidden="true"></i><a href='/tags/productividad/' class="post-tag">Productividad</a><a href='/tags/android-studio/' class="post-tag">Android Studio</a></div></div>
-</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h2 class="single-title" itemprop="name headline"><a href="/posts/ofusca-el-codigo-de-tu-aplicacion/">Ofusca El Codigo De Tu Aplicacion</a>
+</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><div class="featured-image-preview">
+      <a href="/posts/ofusca-el-codigo-de-tu-aplicacion/" aria-label="Ofusca El Codigo De Tu Aplicación Android"><img loading="eager" src='/images/ofusca_el_codigo_de_tu_aplicacion_android.png' sizes="(max-width: 680px) 100vw, (max-width: 960px) 80vw, (max-width: 1440px) 56vw, 800px" alt="Featured image for Ofusca El Codigo De Tu Aplicación Android" height="336" width="800"></a>
+    </div><h2 class="single-title" itemprop="name headline"><a href="/posts/ofusca-el-codigo-de-tu-aplicacion/">Ofusca El Codigo De Tu Aplicación Android</a>
   </h2><div class="post-meta"><span class="post-author"><span class="author"><i class="fa-solid fa-user-circle" aria-hidden="true"></i>
-      Adrián Lázaro</span></span>&nbsp;<span class="post-publish" title='2021-09-05 18:41:00'>publicado el <time datetime="05-09-2021">05-09-2021</time></span></div><div class="content"></div><div class="post-footer">
-    <a href="/posts/ofusca-el-codigo-de-tu-aplicacion/">Leer más</a></div>
+      Adrián Lázaro</span></span>&nbsp;<span class="post-publish" title='2021-09-05 18:41:00'>publicado el <time datetime="05-09-2021">05-09-2021</time></span></div><div class="content"><p>Entramos a ver un tema que sobre todo al principio de nuestra vida profesional como desarrolladores Android no cuidamos lo suficiente (principalmente por desconocer la existencia de este tipo de herramientas). <strong>Ofusca el código fuente de tu aplicación</strong> si quieres evitar a toda costa sorpresas desagradables.</p>
+<p>Si quieres más definiciones para poder seguir haciéndote una idea, te dejo por aquí la de la <a href="https://dle.rae.es/ofuscar" title="RAE" target="_blank" rel="external nofollow noopener noreferrer">Link</a>.</p>
+<hr>
+<h4 class="heading-element" id="objetivos-principales"><span>Objetivos principales:</span>
+  <a href="#objetivos-principales" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h4><ul>
+<li><strong>Dificultar la ingeniería inversa:</strong> Impedir que otros entiendan cómo funciona tu algoritmo.</li>
+<li><strong>Seguridad por oscuridad:</strong> Aunque no es una medida de seguridad definitiva, dificulta la búsqueda de brechas.</li>
+<li><strong>Reducción de tamaño:</strong> A menudo, el proceso de ofuscación elimina espacios y renombra variables a una sola letra, lo que reduce el peso del archivo (minificación).</li>
+</ul>
+<hr>
+<h3 class="heading-element" id="técnicas-comunes-de-ofuscación"><span>Técnicas comunes de ofuscación</span>
+  <a href="#t%c3%a9cnicas-comunes-de-ofuscaci%c3%b3n" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><p>Para lograr que el código sea ininteligible, las herramientas suelen aplicar varias capas de transformación:</p></div><div class="post-footer">
+    <a href="/posts/ofusca-el-codigo-de-tu-aplicacion/">Leer más</a><div class="post-tags"><i class="fa-solid fa-tags me-1" aria-hidden="true"></i><a href='/tags/seguridad/' class="post-tag">Seguridad</a></div></div>
 </article></div></main><footer class="footer">
     <div class="footer-container"><div class="footer-line powered">Provisto por <a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreferrer" title="Hugo 0.154.5"><img class="hugo-icon" src="/images/hugo.min.svg" alt="Hugo logo" /> Hugo</a> | Tema - <a href="https://github.com/hugo-fixit/FixIt" target="_blank" rel="external" title="FixIt v0.4.3-20260130042349-e23a50d7"><img class="fixit-icon" src="/images/fixit.min.svg" alt="FixIt logo" /> FixIt</a>
         </div></div>

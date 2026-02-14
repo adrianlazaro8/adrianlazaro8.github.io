@@ -7,12 +7,7 @@ description = "Conocer los atajos de teclado que tenemos en Android Studio es fu
 # LoveIt configuration
 featuredImage = "/images/atajos-fundamentales-android-studio.png"
 featuredImagePreview = "/images/atajos-fundamentales-android-studio.png"
-tags = ["productividad", "Android Studio"]
-
-[lightgallery]
-  enable = true
-[toc]
-  enable = true
+tags = ["Productividad", "Android Studio"]
 +++
 
 
