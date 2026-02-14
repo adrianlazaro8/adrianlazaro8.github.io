@@ -52,7 +52,7 @@ Efectivamente, podrían modificar ese if else para que la aplicación se comport
 
 Aquí entra en juego la ofuscación. La ofuscación del código fuente es ese proceso que se encarga de modificar el nombre de las clases, de las variables, de las constantes, etc… Con ello, si alguien decompila un APK no podrá llegar a entender qué está haciendo una parte del código. En lugar de el snippet de arriba, podría llegar a encontrar algo como esto:
 
-``kotlin
+```kotlin
 if(user.isSubscribed()){
   //Very cool functionality
 } else {
