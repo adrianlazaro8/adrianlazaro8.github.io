@@ -1,5 +1,5 @@
 +++
-date = '2021-09-05T18:41:00+01:00'
+date = '2025-09-05T18:41:00+01:00'
 draft = false
 title = 'Ofusca El Codigo De Tu Aplicación Android'
 description = "Conoce cómo ofuscar el código de tu aplicación Android para que a nadie le sirva hacer ingeniería inversa"
