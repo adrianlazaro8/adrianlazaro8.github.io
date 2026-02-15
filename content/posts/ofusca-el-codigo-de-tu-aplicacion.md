@@ -16,7 +16,7 @@ Si quieres más definiciones para poder seguir haciéndote una idea, te dejo por
 
 ---
 
-### Objetivos principales:
+### Objetivos principales de la ofuscación:
 * **Dificultar la ingeniería inversa:** Impedir que otros entiendan cómo funciona tu algoritmo.
 * **Seguridad por oscuridad:** Aunque no es una medida de seguridad definitiva, dificulta la búsqueda de brechas.
 * **Reducción de tamaño:** A menudo, el proceso de ofuscación elimina espacios y renombra variables a una sola letra, lo que reduce el peso del archivo (minificación).

@@ -3,6 +3,7 @@ title = 'Adrian Lazaro'
 theme = "FixIt"
 languageCode = "es"
 defaultContentLanguage = "es"
+summaryLength = 300
 
 [module]
   [module.hugoVersion]

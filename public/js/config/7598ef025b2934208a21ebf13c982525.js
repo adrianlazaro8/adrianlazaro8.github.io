@@ -1,1 +1,0 @@
-window.config={"comment":{"enable":false},"version":"v0.4.3-20260130042349-e23a50d7"};console.log('Page config:', window.config);
