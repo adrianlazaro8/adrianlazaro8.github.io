@@ -1,0 +1,32 @@
+# --- Hugo ---
+# La carpeta donde se genera la web final. 
+# Como usas GitHub Actions, NO queremos subir esto al repo fuente.
+/public/
+
+# Archivos temporales de bloqueo de Hugo
+.hugo_build.lock
+
+# Caché de recursos (imágenes redimensionadas, CSS procesado).
+# Es opcional, pero recomendable ignorarlo para evitar conflictos binarios.
+/resources/_gen/
+
+# --- Node.js (Si usas dependencias de NPM para FixIt) ---
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# --- Sistema Operativo ---
+# Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --- Editores de Código ---
+.vscode/
+.idea/
+*.swp
